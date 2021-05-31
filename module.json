@@ -1,0 +1,25 @@
+{
+  "name": "playlist-down",
+  "title": "Playlist Down",
+  "description": "This module changes the appearance of the playlist tab, moving the ‘Currently Playing’ and ‘Global Volume’ blocks to the bottom so they don't make the rest of the interface jump around when they change size. It also highlights the ‘Currently Playing’ block so it's easier to notice.",
+  "author": "Rafael “Miriadis” Masoni (Miriadis#9152)",
+  "authors": [],
+  "url": "https://gitlab.com/the-stash/playlist-down",
+  "flags": {},
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.6",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [
+    "./styles/playlist-down.css"
+  ],
+  "languages": [],
+  "packs": [],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://gitlab.com/the-stash/playlist-down/-/raw/master/module.json",
+  "download": "https://gitlab.com/the-stash/playlist-down/-/archive/1.0.0/playlist-down-1.0.0.zip",
+  "protected": false
+}
