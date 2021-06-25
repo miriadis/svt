@@ -8,7 +8,7 @@
   "flags": {},
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.8",
   "scripts": [],
   "esmodules": [],
   "styles": [
@@ -20,6 +20,6 @@
   "dependencies": [],
   "socket": false,
   "manifest": "https://gitlab.com/the-stash/playlist-down/-/raw/master/module.json",
-  "download": "https://gitlab.com/the-stash/playlist-down/-/archive/1.0.0/playlist-down-1.0.0.zip",
+  "download": "https://gitlab.com/the-stash/playlist-down/-/archive/1.0.1/playlist-down-1.0.1.zip",
   "protected": false
 }
