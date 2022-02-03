@@ -4,7 +4,7 @@
   "description": "Formerly known as ‘Playlist Down’, this module adds some small visual tweaks to Foundry's UI. It currently highlights the ‘Currently Playing’ tracks, truncates long names in chat, and adds badges to more easily identify Private/Blind Rolls and Whispers.",
   "author": "Rafael “Miriadis” Masoni (Miriadis#9152)",
   "url": "https://gitlab.com/the-stash/svt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "styles": [
@@ -12,6 +12,6 @@
   ],
   "socket": false,
   "manifest": "https://gitlab.com/the-stash/svt/-/raw/master/module.json",
-  "download": "https://gitlab.com/the-stash/svt/-/archive/1.1.0/svt-1.1.0.zip",
+  "download": "https://gitlab.com/the-stash/svt/-/archive/1.1.1/svt-1.1.1.zip",
   "protected": false
 }
