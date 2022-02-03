@@ -1,17 +1,17 @@
 {
-  "name": "playlist-down",
-  "title": "Playlist Down",
-  "description": "This module changes the appearance of the playlist tab, moving the ‘Currently Playing’ and ‘Global Volume’ blocks to the bottom so they don't make the rest of the interface jump around when they change size. It also highlights the ‘Currently Playing’ block so it's easier to notice.",
+  "name": "svt",
+  "title": "Small Visual Tweaks",
+  "description": "Formerly known as ‘Playlist Down’, this module adds some small visual tweaks to Foundry's UI. It currently highlights the ‘Currently Playing’ tracks, truncates long names in chat, and adds badges to more easily identify Private/Blind Rolls and Whispers.",
   "author": "Rafael “Miriadis” Masoni (Miriadis#9152)",
-  "url": "https://gitlab.com/the-stash/playlist-down",
-  "version": "1.0.2",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.9",
+  "url": "https://gitlab.com/the-stash/svt",
+  "version": "1.1.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
   "styles": [
-    "./styles/playlist-down.css"
+    "./styles/svt.css"
   ],
   "socket": false,
-  "manifest": "https://gitlab.com/the-stash/playlist-down/-/raw/master/module.json",
-  "download": "https://gitlab.com/the-stash/playlist-down/-/archive/1.0.2/playlist-down-1.0.2.zip",
+  "manifest": "https://gitlab.com/the-stash/svt/-/raw/master/module.json",
+  "download": "https://gitlab.com/the-stash/svt/-/archive/1.1.0/svt-1.1.0.zip",
   "protected": false
 }

@@ -1,5 +1,7 @@
-# Playlist Down
+# Small Visual Tweaks (SVT)
 
-This Foundry VTT module changes the appearance of the playlist tab, moving the ‘Currently Playing’ and ‘Global Volume’ blocks to the bottom so they don't make the rest of the interface jump around when they change size. It also highlights the ‘Currently Playing’ block so it's easier to notice.
+Formerly known as ‘Playlist Down’, this module adds some small visual tweaks to Foundry's UI. It currently highlights the ‘Currently Playing’ tracks, truncates long names in chat, and adds badges to more easily identify Private/Blind Rolls and Whispers.
 
-![Animation displaying Playlist Down in action](playlist-down.gif)
+![Screenshot displaying the changes on ‘Currently Playing’ tracks](currently-playing.png)
+
+![Screenshot displaying the changes to the chat](chat.png)
