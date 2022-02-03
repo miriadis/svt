@@ -14,7 +14,7 @@
 
 
 /* Add badge to Private Rolls and Whispers */
-.chat-log .chat-message.whisper .message-sender:before {
+#chat-log .chat-message.whisper .message-sender:before {
   background-color: rgba(79, 121, 215, .3);
   border-radius: 2px;
   content: "Private";
@@ -28,13 +28,13 @@
 }
 
 /* Custom badge for Blind Rolls */
-.chat-log .chat-message.blind .message-sender:before {
+#chat-log .chat-message.blind .message-sender:before {
   background-color: rgba(165, 57, 167, .3);
   content: "Blind";
 }
 
 /* Truncate sender name */
-.chat-message .message-sender {
+#chat-log .chat-message .message-sender {
   overflow: hidden;
   text-overflow: ellipsis;
   flex-grow: 5;
