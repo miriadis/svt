@@ -4,4 +4,4 @@ Formerly known as ‘Playlist Down’, this module adds some small visual tweaks
 
 ![Screenshot displaying the changes on ‘Currently Playing’ tracks](currently-playing.png)
 
-![Screenshot displaying the changes to the chat](chat.png)
+![Screenshot displaying the changes to the chat](svt-rolls.png)
