@@ -14,28 +14,45 @@
 
 
 /* Add badge to Private Rolls and Whispers */
-#chat-log .chat-message.whisper .message-sender:before {
-  background-color: rgba(79 121 215 / .3);
-  border-radius: 2px;
+#chat-log .chat-message.whisper .message-sender .subtitle:before {
+  background-color: rgba(79 121 215 / .2);
+  border-radius: 3px;
   content: "Private";
   font-size: .6em;
   font-weight: bold;
   letter-spacing: .1em;
   margin-right: .5em;
-  padding: .2em .5em;
+  padding: .4em .5em;
+  line-height: 1;
   text-transform: uppercase;
   vertical-align: .2em;
 }
 
 /* Custom badge for Blind Rolls */
-#chat-log .chat-message.blind .message-sender:before {
-  background-color: rgba(165 57 167 / .3);
+#chat-log .chat-message.blind .message-sender .subtitle:before {
+  background-color: rgba(165 57 167 / .2);
   content: "Blind";
 }
 
 /* Truncate sender name */
 #chat-log .chat-message .message-sender {
+  gap: .4rem;
+  overflow: hidden;
+}
+
+#chat-log .chat-message .message-sender .name-stacked {
+  overflow: hidden;
+}
+
+#chat-log .chat-message .message-sender .title {
   overflow: hidden;
   text-overflow: ellipsis;
-  flex-grow: 5;
+  white-space: nowrap;
+}
+
+/* Prevent avatar shadow clipping */
+#chat-log .chat-message .message-sender .avatar img {
+  height: 32px;
+  margin: 4px;
+  width: 32px;
 }
